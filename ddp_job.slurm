@@ -29,7 +29,7 @@ pip install -user transformers
 
 
 start=`date +%s.%N`
-srun python pretraining.py --mode train \
+python pretraining.py --mode train \
                             --device cuda\
                             --epochs 10\
                             --batch_size 64\
